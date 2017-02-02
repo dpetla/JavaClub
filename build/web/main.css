@@ -1,0 +1,44 @@
+
+/* 
+    Created on : Aug 1, 2016, 11:13:06 PM
+    Course: PROG32758 (Java Enterprise)
+    Assignment: 3
+    Student: Douglas Petla
+*/
+
+.jumbotron {
+    background-color: #B54D4D;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Wave.svg/170px-Wave.svg.png);
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-origin: content-box;
+    color:#ffffff;
+}
+
+input, button{
+    margin: 10px 0 10px 0;
+}
+
+.btn {
+    background-color: #008DD5;
+    color: #ffffff;
+}
+
+
+main- {
+    margin: 0 auto;
+    width: 50%;
+    min-width: 100px;
+    margin-top: 50px;
+}
+.panel-danger .panel-heading {
+    background: #B54D4D;
+    color: #ffffff;
+}
+
+.center-container {
+    width: 50%;
+    min-width: 200px;
+    padding-top: 50px;
+}

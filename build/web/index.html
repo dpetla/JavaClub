@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!--
+Course: PROG32758 (Java Enterprise)
+Assignment: 3
+Student: Douglas Petla
+-->
+<html lang="en">
+    <head>
+        <title>Java Club Home Page</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link href="main.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <div class="container">
+            <header class="jumbotron">
+                <h1>Java Club</h1>
+                <p>Write Once, Run Anywhere</p>
+            </header>
+            <div class="row">
+                <div class="col-md-8 text-justify">
+                    <h2>Why is Java the Most Popular Programming Language?</h2>
+                    <p>
+                        Java is one of the most widely adopted programming languages,
+                        used by some 9 million developers and running on 7 billion devices worldwide.
+                    </p>
+                    <p>
+                        Grounded in readability and simplicity, Java has staying 
+                        power since it has long-term compatibility, which ensures 
+                        older applications continue to work now into the future.
+                    </p>
+                    <p>
+                        People use Java to develop serving side applications, 
+                        video games, mobile applications and more.
+                    </p>
+                    <p>source: <a href="https://blogs.oracle.com/oracleuniversity/entry/why_is_java_the_most">
+                            Oracle</a></p>
+                </div>
+                <div class="col-md-4">
+                    <form name="f_login" method="POST" action="Login" class="form-signin">
+                        <h2 class="form-signin-heading">Please sign in</h2>
+                        <label for="inputUser" class="sr-only">User ID</label>
+                        <input type="text" id="inputUser" name="user" class="form-control" placeholder="User ID" required autofocus>
+                        <label for="inputPassword" class="sr-only">Password</label>
+                        <input type="password" id="inputPassword" name="password" class="form-control" placeholder="Password" required>
+                        <!--<div class="checkbox">
+                            <label>
+                                <input type="checkbox" value="remember-me"> Remember me
+                            </label>
+                        </div>-->
+                        <button class="btn btn-lg btn-primary btn-block" type="submit" value="Login">Sign in</button>
+                        <p>Not registered yet? <a href="Register">Sign up here.</a></p>
+                    </form>
+                </div>   
+            </div>
+        </div>
+        <!-- scripts -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    </body>
+</html>
