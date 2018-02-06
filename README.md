@@ -9,7 +9,7 @@ The purpose of this assignment is to construct a skeletal structure of a login-b
 * Main page shows a greeting message, the member’s profile and a logout link.
 
 
-## Java Club Diagram
+## Views
 ![alt text](https://github.com/dpetla/JavaClub/blob/master/src/images/JavaClub-1_opt.jpg)
 
 ![alt text](https://github.com/dpetla/JavaClub/blob/master/src/images/JavaClub-2_opt.jpg)
